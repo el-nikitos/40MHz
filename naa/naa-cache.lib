@@ -58,6 +58,23 @@ X 3 3 500 -300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MOTOR_2020_import_Конденсатор_16В_0.1_мкФ+-10проц.
+#
+DEF MOTOR_2020_import_Конденсатор_16В_0.1_мкФ+-10проц. C 0 40 Y Y 1 F N
+F0 "C" 0 150 60 H V C CNN
+F1 "MOTOR_2020_import_Конденсатор_16В_0.1_мкФ+-10проц." -50 -250 60 H I C CNN
+F2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" -100 -150 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "0,1 мкФ" 25 -100 50 H V C CNN "INFO"
+F5 "https://www.chipdip.ru/product0/9000591947" -125 250 50 H I C CNN "LINK"
+DRAW
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 50 50 50 -50 N
+X ~ 1 -50 0 50 R 50 50 1 1 I
+X ~ 2 100 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # MOTOR_2020_import_Конденсатор_подстроечный_TZC3R100A110
 #
 DEF MOTOR_2020_import_Конденсатор_подстроечный_TZC3R100A110 C 0 40 Y Y 1 F N
@@ -154,6 +171,28 @@ X ~ 2 600 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MOTOR_2020_import_Резистор_подстроечный_PVA3A102
+#
+DEF MOTOR_2020_import_Резистор_подстроечный_PVA3A102 RP 0 40 Y Y 1 F N
+F0 "RP" 200 -450 39 H V C CNN
+F1 "MOTOR_2020_import_Резистор_подстроечный_PVA3A102" 600 -900 39 H I C CNN
+F2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" 550 -1000 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+F4 "https://www.chipdip.ru/product/3303x-3-102" 0 0 50 H I C CNN "LINK"
+F5 "1 кОм" 0 0 50 H I C CNN "INFO"
+DRAW
+T 0 350 -600 50 0 0 0 "1 кОм" Normal 0 C C
+T 0 350 -750 50 0 0 0 PVZ3A102 Normal 0 C C
+S 150 -525 550 -675 0 0 0 N
+P 2 0 0 0 350 -475 350 -525 N
+P 3 0 0 0 325 -475 350 -525 375 -475 N
+P 3 0 0 0 350 -475 350 -400 550 -400 N
+X ~ 1 50 -600 100 R 50 50 1 1 I
+X ~ 2 650 -400 100 L 50 50 1 1 I
+X ~ 3 650 -600 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # MOTOR_2020_import_Резистор_подстроечный_PVZ3A105
 #
 DEF MOTOR_2020_import_Резистор_подстроечный_PVZ3A105 RP 0 40 Y Y 1 F N
@@ -162,6 +201,7 @@ F1 "MOTOR_2020_import_Резистор_подстроечный_PVZ3A105" 600 -9
 F2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" 550 -1000 39 H I C CNN
 F3 "" 0 0 39 H I C CNN
 F4 "https://www.chipdip.ru/product/pvz3a105" 0 0 50 H I C CNN "LINK"
+F5 "1 МОм" 0 0 50 H I C CNN "INFO"
 DRAW
 T 0 350 -600 50 0 0 0 "1 МОм" Normal 0 C C
 T 0 350 -750 50 0 0 0 PVZ3A105 Normal 0 C C
@@ -172,6 +212,22 @@ P 3 0 0 0 350 -475 350 -400 550 -400 N
 X ~ 1 50 -600 100 R 50 50 1 1 I
 X ~ 2 650 -400 100 L 50 50 1 1 I
 X ~ 3 650 -600 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Розетка_KLS1-SMA001
+#
+DEF MOTOR_2020_import_Розетка_KLS1-SMA001 XS 0 40 Y Y 1 F N
+F0 "XS" 100 100 50 H V C CNN
+F1 "MOTOR_2020_import_Розетка_KLS1-SMA001" -50 250 50 H I C CNN
+F2 "N_X:Розетка_KLS1-SMA001" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/kls1-sma001" 100 -200 50 H I C CNN "LINK"
+DRAW
+C 0 0 10 0 1 0 N
+C 0 0 100 0 1 0 N
+X ~ 1 200 0 200 L 50 50 1 1 O
+X ~ 2 200 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -217,6 +273,18 @@ A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
 A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
 X ~ 1 -450 0 50 R 50 50 1 1 I
 X ~ 2 50 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_LOGO
+#
+DEF elements_LOGO D 0 40 Y Y 1 F N
+F0 "D" -75 200 50 H I C CNN
+F1 "elements_LOGO" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 125 0 1 0 N
 ENDDRAW
 ENDDEF
 #

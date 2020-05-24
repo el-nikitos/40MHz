@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,8 @@ U 1 1 5ECB1AF5
 P 3950 2500
 AR Path="/5ECB1AF5" Ref="L?"  Part="1" 
 AR Path="/5ECAE991/5ECB1AF5" Ref="L3"  Part="1" 
-F 0 "L3" H 3750 2650 60  0000 C CNN
+AR Path="/5ED075B7/5ECB1AF5" Ref="L5"  Part="1" 
+F 0 "L5" H 3750 2650 60  0000 C CNN
 F 1 "Чип-индуктивность_2,2_мкГн±10%" H 3650 2950 60  0001 C CNN
 F 2 "N_RLC:Чип-индуктивность_SMD_0805" H 3525 3075 60  0001 C CNN
 F 3 "" H 3950 2500 60  0001 C CNN
@@ -36,7 +37,8 @@ U 1 1 5ECB1AFE
 P 4350 2500
 AR Path="/5ECB1AFE" Ref="C?"  Part="1" 
 AR Path="/5ECAE991/5ECB1AFE" Ref="C3"  Part="1" 
-F 0 "C3" H 4400 2650 60  0000 C CNN
+AR Path="/5ED075B7/5ECB1AFE" Ref="C6"  Part="1" 
+F 0 "C6" H 4400 2650 60  0000 C CNN
 F 1 "Конденсатор_подстроечный_TZC3R100A110" H 4350 2150 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_подстроечный_TZC3" H 4250 2250 60  0001 C CNN
 F 3 "" H 4350 2500 60  0001 C CNN
@@ -52,7 +54,9 @@ $Comp
 L MOTOR_2020_import:Резистор_подстроечный_PVZ3A105 RP1
 U 1 1 5ECB1CD0
 P 1600 2100
-F 0 "RP1" V 1950 1788 39  0000 L CNN
+AR Path="/5ECAE991/5ECB1CD0" Ref="RP1"  Part="1" 
+AR Path="/5ED075B7/5ECB1CD0" Ref="RP3"  Part="1" 
+F 0 "RP3" V 1950 1788 39  0000 L CNN
 F 1 "Резистор_подстроечный_PVZ3A105" H 2200 1200 39  0001 C CNN
 F 2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" H 2150 1100 39  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\potentiometrs_PVZ.pdf" H 1600 2100 39  0001 C CNN
@@ -292,7 +296,9 @@ $Comp
 L MOTOR_2020_import:Резистор_10_кОм±5%_0,1Вт R3
 U 1 1 5ECB362B
 P 2500 1650
-F 0 "R3" V 2750 1800 60  0000 C CNN
+AR Path="/5ECAE991/5ECB362B" Ref="R3"  Part="1" 
+AR Path="/5ED075B7/5ECB362B" Ref="R7"  Part="1" 
+F 0 "R7" V 2750 1800 60  0000 C CNN
 F 1 "Резистор_10_кОм±5%_0,1Вт" H 2825 1425 60  0001 C CNN
 F 2 "MOTOR_RLC:Резистор_SMD_0603-0,075_Вт" H 2350 1325 60  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\Р1-12_СП.pdf" H 2800 1650 60  0001 C CNN
@@ -302,23 +308,12 @@ F 5 "https://www.chipdip.ru/product0/65097" H 2750 1900 50  0001 C CNN "LINK"
 	0    1    1    0   
 $EndComp
 $Comp
-L MOTOR_2020_import:Резистор_470_Ом±5%_0,1Вт R5
-U 1 1 5ECB78EF
-P 3250 5000
-F 0 "R5" V 3500 5150 60  0000 C CNN
-F 1 "Резистор_470_Ом±5%_0,1Вт" H 3575 4775 60  0001 C CNN
-F 2 "MOTOR_RLC:Резистор_SMD_0603-0,075_Вт" H 3100 4675 60  0001 C CNN
-F 3 "${MOTOR_2020_LIB}\\documentation\\Р1-12_СП.pdf" H 3550 5000 60  0001 C CNN
-F 4 "470 кОм" V 3600 5250 50  0000 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/56821" H 3500 5250 50  0001 C CNN "LINK"
-	1    3250 5000
-	0    1    1    0   
-$EndComp
-$Comp
 L MOTOR_2020_import:Резистор_1_кОм±5%_0,1Вт R2
 U 1 1 5ECB8169
 P 1400 3000
-F 0 "R2" H 1700 3150 60  0000 C CNN
+AR Path="/5ECAE991/5ECB8169" Ref="R2"  Part="1" 
+AR Path="/5ED075B7/5ECB8169" Ref="R5"  Part="1" 
+F 0 "R5" H 1700 3150 60  0000 C CNN
 F 1 "Резистор_1_кОм±5%_0,1Вт" H 1725 2775 60  0001 C CNN
 F 2 "MOTOR_RLC:Резистор_SMD_0603-0,075_Вт" H 1250 2675 60  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\Р1-12_СП.pdf" H 1700 3000 60  0001 C CNN
@@ -337,7 +332,9 @@ $Comp
 L MOTOR_2020_import:Транзистор_КТ368Б9 VT1
 U 1 1 5ECAF6A5
 P 2150 3000
-F 0 "VT1" H 2658 3098 60  0000 L CNN
+AR Path="/5ECAE991/5ECAF6A5" Ref="VT1"  Part="1" 
+AR Path="/5ED075B7/5ECAF6A5" Ref="VT2"  Part="1" 
+F 0 "VT2" H 2658 3098 60  0000 L CNN
 F 1 "Транзистор_КТ368Б9" H 2658 2992 60  0000 L CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 2475 3625 60  0001 C CNN
 F 3 "" H 2150 3000 60  0001 C CNN
@@ -351,7 +348,9 @@ $Comp
 L MOTOR_2020_import:Резистор_10_кОм±5%_0,1Вт R4
 U 1 1 5ECBB1CF
 P 2500 4000
-F 0 "R4" V 2750 4150 60  0000 C CNN
+AR Path="/5ECAE991/5ECBB1CF" Ref="R4"  Part="1" 
+AR Path="/5ED075B7/5ECBB1CF" Ref="R8"  Part="1" 
+F 0 "R8" V 2750 4150 60  0000 C CNN
 F 1 "Резистор_10_кОм±5%_0,1Вт" H 2825 3775 60  0001 C CNN
 F 2 "MOTOR_RLC:Резистор_SMD_0603-0,075_Вт" H 2350 3675 60  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\Р1-12_СП.pdf" H 2800 4000 60  0001 C CNN
@@ -393,7 +392,8 @@ U 1 1 5ECBD277
 P 3250 4600
 AR Path="/5ECBD277" Ref="C?"  Part="1" 
 AR Path="/5ECAE991/5ECBD277" Ref="C2"  Part="1" 
-F 0 "C2" V 3200 4750 60  0000 C CNN
+AR Path="/5ED075B7/5ECBD277" Ref="C5"  Part="1" 
+F 0 "C5" V 3200 4750 60  0000 C CNN
 F 1 "Конденсатор_подстроечный_TZC3R100A110" H 3250 4250 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_подстроечный_TZC3" H 3150 4350 60  0001 C CNN
 F 3 "" H 3250 4600 60  0001 C CNN
@@ -409,7 +409,8 @@ U 1 1 5ECBD26A
 P 3250 4200
 AR Path="/5ECBD26A" Ref="L?"  Part="1" 
 AR Path="/5ECAE991/5ECBD26A" Ref="L2"  Part="1" 
-F 0 "L2" V 3000 4350 60  0000 C CNN
+AR Path="/5ED075B7/5ECBD26A" Ref="L4"  Part="1" 
+F 0 "L4" V 3000 4350 60  0000 C CNN
 F 1 "Чип-индуктивность_2,2_мкГн±10%" H 2950 4650 60  0001 C CNN
 F 2 "N_RLC:Чип-индуктивность_SMD_0805" H 2825 4775 60  0001 C CNN
 F 3 "" H 3250 4200 60  0001 C CNN
@@ -432,10 +433,6 @@ Wire Wire Line
 Connection ~ 2500 3500
 Wire Wire Line
 	2500 3500 2500 4000
-Wire Wire Line
-	2500 5750 3250 5750
-Wire Wire Line
-	3250 5750 3250 5600
 Connection ~ 2500 5750
 Wire Wire Line
 	2500 4600 2500 5750
@@ -445,7 +442,9 @@ $Comp
 L MOTOR_2020_import:Вилка_PLS-2 XP3
 U 1 1 5ECC9253
 P 4000 3400
-F 0 "XP3" H 4200 3450 50  0000 R CNN
+AR Path="/5ECAE991/5ECC9253" Ref="XP3"  Part="1" 
+AR Path="/5ED075B7/5ECC9253" Ref="XP6"  Part="1" 
+F 0 "XP6" H 4200 3450 50  0000 R CNN
 F 1 "Вилка_PLS-2" H 4150 2750 39  0001 C CNN
 F 2 "N_X:Вилка_PLS2_вертикальная" H 4250 2875 39  0001 C CNN
 F 3 "" H 4000 3400 50  0001 C CNN
@@ -459,7 +458,9 @@ $Comp
 L MOTOR_2020_components:Контрольная_точка_сопряжения X1
 U 1 1 5ECCAC22
 P 3850 4900
-F 0 "X1" H 3850 5033 50  0000 C CNN
+AR Path="/5ECAE991/5ECCAC22" Ref="X1"  Part="1" 
+AR Path="/5ED075B7/5ECCAC22" Ref="X3"  Part="1" 
+F 0 "X3" H 3850 5033 50  0000 C CNN
 F 1 "Контрольная_точка_сопряжения" H 3725 5100 50  0001 C CNN
 F 2 "MOTOR_X:Пробник" H 3875 4700 50  0001 C CNN
 F 3 "" H 3850 4900 50  0001 C CNN
@@ -482,7 +483,9 @@ $Comp
 L MOTOR_2020_import:Вилка_PLS-2 XP2
 U 1 1 5ECCF15F
 P 4000 1650
-F 0 "XP2" H 4200 1700 50  0000 R CNN
+AR Path="/5ECAE991/5ECCF15F" Ref="XP2"  Part="1" 
+AR Path="/5ED075B7/5ECCF15F" Ref="XP5"  Part="1" 
+F 0 "XP5" H 4200 1700 50  0000 R CNN
 F 1 "Вилка_PLS-2" H 4150 1000 39  0001 C CNN
 F 2 "N_X:Вилка_PLS2_вертикальная" H 4250 1125 39  0001 C CNN
 F 3 "" H 4000 1650 50  0001 C CNN
@@ -508,7 +511,9 @@ $Comp
 L MOTOR_2020_import:Вилка_PLS-3 XP4
 U 1 1 5ECD2F56
 P 5500 2300
-F 0 "XP4" H 5700 2350 50  0000 R CNN
+AR Path="/5ECAE991/5ECD2F56" Ref="XP4"  Part="1" 
+AR Path="/5ED075B7/5ECD2F56" Ref="XP7"  Part="1" 
+F 0 "XP7" H 5700 2350 50  0000 R CNN
 F 1 "Вилка_PLS-3" H 5650 1650 39  0001 C CNN
 F 2 "N_X:Вилка_PLS3_вертикальная" H 5750 1775 39  0001 C CNN
 F 3 "" H 5500 2300 50  0001 C CNN
@@ -524,7 +529,9 @@ $Comp
 L MOTOR_2020_import:Резистор_470_Ом±5%_0,1Вт R6
 U 1 1 5ECD58E9
 P 4750 4000
-F 0 "R6" V 5000 4150 60  0000 C CNN
+AR Path="/5ECAE991/5ECD58E9" Ref="R6"  Part="1" 
+AR Path="/5ED075B7/5ECD58E9" Ref="R9"  Part="1" 
+F 0 "R9" V 5000 4150 60  0000 C CNN
 F 1 "Резистор_470_Ом±5%_0,1Вт" H 5075 3775 60  0001 C CNN
 F 2 "MOTOR_RLC:Резистор_SMD_0603-0,075_Вт" H 4600 3675 60  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\Р1-12_СП.pdf" H 5050 4000 60  0001 C CNN
@@ -538,10 +545,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2600 4750 3500
 Wire Wire Line
-	3250 5750 4750 5750
-Wire Wire Line
 	4750 5750 4750 4600
-Connection ~ 3250 5750
 Wire Wire Line
 	5000 2400 4750 2400
 Wire Wire Line
@@ -552,7 +556,9 @@ $Comp
 L MOTOR_2020_components:Контрольная_точка_сопряжения X2
 U 1 1 5ECDB0DC
 P 5350 3500
-F 0 "X2" H 5350 3633 50  0000 C CNN
+AR Path="/5ECAE991/5ECDB0DC" Ref="X2"  Part="1" 
+AR Path="/5ED075B7/5ECDB0DC" Ref="X4"  Part="1" 
+F 0 "X4" H 5350 3633 50  0000 C CNN
 F 1 "Контрольная_точка_сопряжения" H 5225 3700 50  0001 C CNN
 F 2 "MOTOR_X:Пробник" H 5375 3300 50  0001 C CNN
 F 3 "" H 5350 3500 50  0001 C CNN
@@ -566,4 +572,39 @@ NoConn ~ 5500 3500
 Connection ~ 4750 3500
 Wire Wire Line
 	4750 3500 4750 4000
+Text Label 2650 2500 0    50   ~ 0
+AMP_1
+$Comp
+L MOTOR_2020_import:Резистор_подстроечный_PVA3A102 RP2
+U 1 1 5ECF3568
+P 3850 4950
+AR Path="/5ECAE991/5ECF3568" Ref="RP2"  Part="1" 
+AR Path="/5ED075B7/5ECF3568" Ref="RP4"  Part="1" 
+F 0 "RP4" V 4050 4450 39  0000 L CNN
+F 1 "Резистор_подстроечный_PVA3A102" H 4450 4050 39  0001 C CNN
+F 2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" H 4400 3950 39  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\potentiometrs_PVZ.pdf" H 3850 4950 39  0001 C CNN
+F 4 "https://www.chipdip.ru/product/3303x-3-102" H 3850 4950 50  0001 C CNN "LINK"
+F 5 "1 кОм" H 3850 4950 50  0001 C CNN "INFO"
+	1    3850 4950
+	0    1    1    0   
+$EndComp
+NoConn ~ 3250 5600
+Wire Wire Line
+	2500 5750 3450 5750
+Wire Wire Line
+	3450 5600 3450 5750
+Connection ~ 3450 5750
+Wire Wire Line
+	3450 5750 4750 5750
+Text Notes 3500 5400 0    50   ~ 0
+470 Ом
+Wire Notes Line
+	11400 1400 11400 5950
+Wire Notes Line
+	11400 5950 6400 5950
+Wire Notes Line
+	6400 5950 6400 1400
+Wire Notes Line
+	6400 1400 11400 1400
 $EndSCHEMATC
