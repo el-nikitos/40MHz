@@ -235,4 +235,71 @@ Wire Wire Line
 Wire Wire Line
 	6000 4350 5500 4350
 Connection ~ 5500 4350
+Wire Wire Line
+	1500 4100 2000 4100
+$Comp
+L MOTOR_2020_import:Конденсатор_16В_0.1_мкФ+-10проц. C7
+U 1 1 5ECC0BF3
+P 2000 5650
+F 0 "C7" V 1950 5800 60  0000 C CNN
+F 1 "Конденсатор_16В_0.1_мкФ+-10проц." H 1950 5400 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" H 1900 5500 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\murata_smd_ceramic_cap.pdf" H 2000 5650 60  0001 C CNN
+F 4 "0,1 мкФ" V 2050 5900 50  0000 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product0/9000591947" H 1875 5900 50  0001 C CNN "LINK"
+	1    2000 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 5600 2000 5500
+Wire Wire Line
+	2000 5500 2500 5500
+$Comp
+L MOTOR_2020_import:Конденсатор_16В_0.1_мкФ+-10проц. C8
+U 1 1 5ECC515D
+P 2500 5650
+F 0 "C8" V 2450 5800 60  0000 C CNN
+F 1 "Конденсатор_16В_0.1_мкФ+-10проц." H 2450 5400 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" H 2400 5500 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\murata_smd_ceramic_cap.pdf" H 2500 5650 60  0001 C CNN
+F 4 "0,1 мкФ" V 2550 5900 50  0000 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product0/9000591947" H 2375 5900 50  0001 C CNN "LINK"
+	1    2500 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L MOTOR_2020_import:Конденсатор_16В_0.1_мкФ+-10проц. C9
+U 1 1 5ECC53B5
+P 3000 5650
+F 0 "C9" V 2950 5800 60  0000 C CNN
+F 1 "Конденсатор_16В_0.1_мкФ+-10проц." H 2950 5400 60  0001 C CNN
+F 2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" H 2900 5500 60  0001 C CNN
+F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\murata_smd_ceramic_cap.pdf" H 3000 5650 60  0001 C CNN
+F 4 "0,1 мкФ" V 3050 5900 50  0000 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product0/9000591947" H 2875 5900 50  0001 C CNN "LINK"
+	1    3000 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 5750 2000 6000
+Wire Wire Line
+	2000 6000 2500 6000
+Wire Wire Line
+	3000 6000 3000 5750
+Wire Wire Line
+	3000 5600 3000 5500
+Wire Wire Line
+	2500 5600 2500 5500
+Connection ~ 2500 5500
+Wire Wire Line
+	2500 5500 3000 5500
+Wire Wire Line
+	2500 5750 2500 6000
+Connection ~ 2500 6000
+Wire Wire Line
+	2500 6000 3000 6000
+Text Label 2800 5500 2    50   ~ 0
+5V
+Text Label 2850 6000 2    50   ~ 0
+GND
 $EndSCHEMATC
