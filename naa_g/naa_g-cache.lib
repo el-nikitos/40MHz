@@ -1,0 +1,282 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MOTOR_2020_components_Конденсатор_К10-83-50В-12_пФ+-10проц.-МП0
+#
+DEF MOTOR_2020_components_Конденсатор_К10-83-50В-12_пФ+-10проц.-МП0 C 0 40 Y Y 1 F N
+F0 "C" 0 150 60 H V C CNN
+F1 "MOTOR_2020_components_Конденсатор_К10-83-50В-12_пФ+-10проц.-МП0" -50 -250 60 H I C CNN
+F2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" -100 -150 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "0603" 400 100 50 H I C CNN "Типоразмер"
+F5 "12 пФ" 400 200 50 H I C CNN "Номинал"
+F6 "С120" 50 -100 50 H V C CNN "Обозначение УГО"
+DRAW
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 50 50 50 -50 N
+X ~ 1 -50 0 50 R 50 50 1 1 I
+X ~ 2 100 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_components_Набор_диодов_2Д803АС9
+#
+DEF MOTOR_2020_components_Набор_диодов_2Д803АС9 VD 0 40 Y Y 1 F N
+F0 "VD" 250 150 50 H V C CNN
+F1 "MOTOR_2020_components_Набор_диодов_2Д803АС9" 275 -425 50 H I C CNN
+F2 "MOTOR_VD_VT_HL:Корпус_КТ-46" 250 250 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+F4 "аА0.339.471ТУ" 200 -350 50 H I C CNN "TY"
+DRAW
+S 100 100 350 -300 0 0 0 f
+P 2 0 0 0 225 -150 225 -250 N
+P 2 0 0 0 225 50 225 -50 N
+P 2 0 0 0 300 -100 350 -100 N
+P 4 0 0 0 100 0 300 0 300 -200 100 -200 N
+P 4 0 1 0 175 -150 175 -250 225 -200 175 -150 N
+P 4 0 1 0 175 50 175 -50 225 0 175 50 N
+X ~ 1 0 0 100 R 50 50 1 1 I
+X ~ 2 0 -200 100 R 50 50 1 1 I
+X ~ 3 450 -100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Вилка_PLS-2
+#
+DEF MOTOR_2020_import_Вилка_PLS-2 XP 0 40 Y Y 1 F N
+F0 "XP" 100 50 50 H V C CNN
+F1 "MOTOR_2020_import_Вилка_PLS-2" 150 -650 39 H I C CNN
+F2 "N_X:Вилка_PLS2_вертикальная" 250 -525 39 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "-" 150 -950 39 H I C CNN "TY"
+F5 "https://www.chipdip.ru/product/pls-10-ds1021-1-10sf112" 100 250 50 H I C CNN "LINK"
+F6 "PLS-2" 150 -350 50 H V C CNN "INFO"
+DRAW
+S 0 0 300 -300 0 1 0 N
+P 2 1 1 0 100 -150 125 -125 N
+P 2 1 1 0 125 -125 125 -200 N
+P 2 1 1 0 150 -150 125 -125 N
+X 1 1 500 -100 200 L 50 50 1 1 I
+X 2 2 500 -200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Конденсатор_16В_0.1_мкФ+-10проц.
+#
+DEF MOTOR_2020_import_Конденсатор_16В_0.1_мкФ+-10проц. C 0 40 Y Y 1 F N
+F0 "C" 0 150 60 H V C CNN
+F1 "MOTOR_2020_import_Конденсатор_16В_0.1_мкФ+-10проц." -50 -250 60 H I C CNN
+F2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" -100 -150 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "0,1 мкФ" 25 -100 50 H V C CNN "INFO"
+F5 "https://www.chipdip.ru/product0/9000591947" -125 250 50 H I C CNN "LINK"
+DRAW
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 50 50 50 -50 N
+X ~ 1 -50 0 50 R 50 50 1 1 I
+X ~ 2 100 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Конденсатор_подстроечный_TZC3R100A110
+#
+DEF MOTOR_2020_import_Конденсатор_подстроечный_TZC3R100A110 C 0 40 Y Y 1 F N
+F0 "C" 0 150 60 H V C CNN
+F1 "MOTOR_2020_import_Конденсатор_подстроечный_TZC3R100A110" 0 -350 60 H I C CNN
+F2 "N_RLC:Конденсатор_подстроечный_TZC3" -100 -250 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "3...10 пФ" 25 -125 50 H V C CNN "INFO"
+F5 "https://www.chipdip.ru/product/tzc3r100a110" -125 250 50 H I C CNN "LINK"
+F6 "-" 0 0 50 H I C CNN "TY"
+DRAW
+P 2 0 1 0 -75 -50 -25 -100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 50 50 50 -50 N
+P 2 0 1 0 100 75 -50 -75 N
+X ~ 1 -100 0 100 R 50 50 1 1 I
+X ~ 2 150 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Логический_инвертер_NC7WZ04P6X
+#
+DEF MOTOR_2020_import_Логический_инвертер_NC7WZ04P6X DD 0 40 Y Y 1 F N
+F0 "DD" -75 150 50 H V C CNN
+F1 "MOTOR_2020_import_Логический_инвертер_NC7WZ04P6X" 50 275 50 H V C CNN
+F2 "N_DD:SC-70-6" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 450 50 0 -250 0 1 0 f
+S 900 50 450 -250 0 1 0 f
+X IN_1 1 -100 0 100 R 50 50 1 1 I
+X GND 2 -100 -100 100 R 50 50 1 1 P
+X IN_2 3 -100 -200 100 R 50 50 1 1 I
+X ~OUT_2 4 1000 -200 100 L 50 50 1 1 I
+X 1V6...5V5 5 1000 -100 100 L 50 50 1 1 W
+X ~OUT_1 6 1000 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Резистор_10_кОм±5%_0,1Вт
+#
+DEF MOTOR_2020_import_Резистор_10_кОм±5%_0,1Вт R 0 40 Y Y 1 F N
+F0 "R" 275 150 60 H V C CNN
+F1 "MOTOR_2020_import_Резистор_10_кОм±5%_0,1Вт" 325 -225 60 H I C CNN
+F2 "MOTOR_RLC:Резистор_SMD_0603-0,075_Вт" -150 -325 60 H I C CNN
+F3 "" 300 0 60 H I C CNN
+F4 "10 кОм" 300 -125 50 H V C CNN "INFO"
+F5 "https://www.chipdip.ru/product0/65097" 250 250 50 H I C CNN "LINK"
+DRAW
+S 100 75 500 -75 0 1 0 N
+P 2 0 1 0 300 50 200 -50 N
+P 2 0 1 0 350 50 250 -50 N
+P 2 0 1 0 400 50 300 -50 N
+X ~ 1 0 0 100 R 50 50 1 1 I
+X ~ 2 600 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Резистор_подстроечный_PVA3A102
+#
+DEF MOTOR_2020_import_Резистор_подстроечный_PVA3A102 RP 0 40 Y Y 1 F N
+F0 "RP" 200 -450 39 H V C CNN
+F1 "MOTOR_2020_import_Резистор_подстроечный_PVA3A102" 600 -900 39 H I C CNN
+F2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" 550 -1000 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+F4 "https://www.chipdip.ru/product/3303x-3-102" 0 0 50 H I C CNN "LINK"
+F5 "1 кОм" 0 0 50 H I C CNN "INFO"
+DRAW
+T 0 350 -600 50 0 0 0 "1 кОм" Normal 0 C C
+T 0 350 -750 50 0 0 0 PVZ3A102 Normal 0 C C
+S 150 -525 550 -675 0 0 0 N
+P 2 0 0 0 350 -475 350 -525 N
+P 3 0 0 0 325 -475 350 -525 375 -475 N
+P 3 0 0 0 350 -475 350 -400 550 -400 N
+X ~ 1 50 -600 100 R 50 50 1 1 I
+X ~ 2 650 -400 100 L 50 50 1 1 I
+X ~ 3 650 -600 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Розетка_KLS1-SMA001
+#
+DEF MOTOR_2020_import_Розетка_KLS1-SMA001 XS 0 40 Y Y 1 F N
+F0 "XS" 100 100 50 H V C CNN
+F1 "MOTOR_2020_import_Розетка_KLS1-SMA001" -50 250 50 H I C CNN
+F2 "N_X:Розетка_KLS1-SMA001" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/kls1-sma001" 100 -200 50 H I C CNN "LINK"
+DRAW
+C 0 0 10 0 1 0 N
+C 0 0 100 0 1 0 N
+X ~ 1 200 0 200 L 50 50 1 1 O
+X ~ 2 200 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Транзистор_КТ368Б9
+#
+DEF MOTOR_2020_import_Транзистор_КТ368Б9 VT 0 40 Y Y 1 F N
+F0 "VT" 200 250 60 H V C CNN
+F1 "MOTOR_2020_import_Транзистор_КТ368Б9" 875 -225 60 H V C CNN
+F2 "MOTOR_VD_VT_HL:Корпус_КТ-46" 325 625 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "-" 750 150 50 H I C CNN "TY"
+F5 "https://www.chipdip.ru/product/kt368b9" 250 800 50 H I C CNN "LINK"
+F6 "-" 0 0 50 H V C CNN "INFO"
+DRAW
+C 300 0 180 0 1 0 N
+P 2 0 1 0 100 0 250 0 N
+P 2 0 1 0 250 50 350 150 N
+P 2 0 1 0 250 100 250 -100 N
+P 2 0 1 0 350 -150 300 -150 N
+P 2 0 1 0 350 -150 350 -200 N
+P 2 0 1 0 350 150 350 200 N
+P 3 0 1 0 250 -50 350 -150 350 -100 N
+X ~ 1 0 0 100 R 50 50 1 1 I
+X ~ 2 350 -300 100 U 50 50 1 1 I
+X ~ 3 350 300 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MOTOR_2020_import_Чип-индуктивность_2,2_мкГн±10%
+#
+DEF MOTOR_2020_import_Чип-индуктивность_2,2_мкГн±10% L 0 40 Y Y 1 F N
+F0 "L" -200 150 60 H V C CNN
+F1 "MOTOR_2020_import_Чип-индуктивность_2,2_мкГн±10%" -300 450 60 H I C CNN
+F2 "N_RLC:Чип-индуктивность_SMD_0805" -425 575 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "2.2 мкГн" -175 -75 50 H V C CNN "INFO"
+F5 "-" -225 -200 50 H I C CNN "TY"
+F6 "https://www.chipdip.ru/product/lqm21nn2r2k" -450 300 50 H I C CNN "LINK"
+DRAW
+A -350 0 50 1 1799 0 1 0 N -300 0 -400 0
+A -250 0 50 1 1799 0 1 0 N -200 0 -300 0
+A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
+A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
+X ~ 1 -450 0 50 R 50 50 1 1 I
+X ~ 2 50 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_2020_Check_point
+#
+DEF elements_2020_Check_point X 0 40 Y Y 1 F N
+F0 "X" -25 100 50 H V C CNN
+F1 "elements_2020_Check_point" 50 -100 50 H V C CNN
+F2 "N_X:Пробник" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+X ~ 1 -150 0 100 R 50 50 1 1 I
+X ~ 2 150 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_2020_LOGO_NIKITOS_19х7
+#
+DEF elements_2020_LOGO_NIKITOS_19х7 X 0 40 Y Y 1 F N
+F0 "X" -75 125 50 H I C CNN
+F1 "elements_2020_LOGO_NIKITOS_19х7" -25 -100 50 H I C CNN
+F2 "N_ICO:el-nikitos_19x7" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PCB_element" -25 225 50 H I C CNN "INFO"
+DRAW
+C 0 0 125 0 0 0 N
+T 0 0 0 50 0 0 0 LOGO Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# elements_Клеммник_х2
+#
+DEF elements_Клеммник_х2 XТ 0 40 Y Y 1 F N
+F0 "XТ" -300 350 60 H V C CNN
+F1 "elements_Клеммник_х2" -310 -260 60 H I C CNN
+F2 "" -575 275 60 H I C CNN
+F3 "" -575 275 60 H I C CNN
+DRAW
+C -500 250 25 0 0 0 N
+C 0 -150 10 0 0 0 N
+C 0 0 10 0 0 0 N
+T 0 -500 50 50 0 0 0 1 Normal 0 C C
+T 0 -500 -100 50 0 0 0 2 Normal 0 C C
+T 0 -500 175 50 0 0 0 Конт. Normal 0 C C
+T 0 -200 200 50 0 0 0 Цепь Normal 0 C C
+S -600 100 -400 300 0 0 0 N
+S -400 300 0 100 0 0 0 N
+S -400 -200 -600 -50 0 1 0 N
+S -400 -50 -600 100 0 1 0 N
+P 2 0 0 0 -525 250 -550 250 N
+P 2 0 0 0 -475 250 -450 250 N
+P 2 0 0 0 -400 -200 0 -200 N
+P 2 0 0 0 -400 -50 0 -50 N
+P 2 0 0 0 0 -160 0 -200 N
+P 2 0 0 0 0 -140 0 -50 N
+P 2 0 0 0 0 -50 0 -10 N
+P 2 0 0 0 0 10 0 100 N
+X ~ 1 0 0 0 L 50 50 1 1 B N
+X ~ 2 0 -150 0 L 50 50 1 1 B N
+ENDDRAW
+ENDDEF
+#
+#End Library
