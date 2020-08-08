@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:naa_g-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -146,6 +147,7 @@ F 0 "X2" H 5600 3100 50  0000 C CNN
 F 1 "Check_point" H 5600 2900 50  0000 C CNN
 F 2 "N_X:Пробник" H 5600 3000 50  0001 C CNN
 F 3 "" H 5600 3000 50  0001 C CNN
+F 4 "PCB_element" H 5600 3000 50  0001 C CNN "INFO"
 	1    5600 3000
 	1    0    0    -1  
 $EndComp
@@ -653,7 +655,7 @@ L MOTOR_2020_import:Конденсатор_16В_0.1_мкФ+-10проц. C3
 U 1 1 5EF1AF8D
 P 3800 6350
 F 0 "C3" V 3850 6200 60  0000 C CNN
-F 1 "Конденсатор_16В_0.1_мкФ+-10проц." H 3750 6100 60  0001 C CNN
+F 1 "Конденсатор_16В_47_пФ+-10проц." H 3750 6100 60  0001 C CNN
 F 2 "MOTOR_RLC:Конденсатор_SMD_К10-83(0603)" H 3700 6200 60  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\murata_smd_ceramic_cap.pdf" H 3800 6350 60  0001 C CNN
 F 4 "47 пФ" V 3750 6150 50  0000 C CNN "INFO"
@@ -859,6 +861,7 @@ F 0 "X1" V 3550 3400 50  0000 L CNN
 F 1 "Check_point" V 3450 3100 50  0000 L CNN
 F 2 "N_X:Пробник" H 3500 3600 50  0001 C CNN
 F 3 "" H 3500 3600 50  0001 C CNN
+F 4 "PCB_element" H 3500 3600 50  0001 C CNN "INFO"
 	1    3500 3600
 	0    -1   -1   0   
 $EndComp
@@ -895,6 +898,7 @@ F 0 "X3" V 3550 1900 50  0000 L CNN
 F 1 "Check_point" V 3450 1600 50  0000 L CNN
 F 2 "N_X:Пробник" H 3500 2100 50  0001 C CNN
 F 3 "" H 3500 2100 50  0001 C CNN
+F 4 "PCB_element" H 3500 2100 50  0001 C CNN "INFO"
 	1    3500 2100
 	0    -1   -1   0   
 $EndComp
